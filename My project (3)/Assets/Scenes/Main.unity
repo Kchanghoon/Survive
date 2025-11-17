@@ -283,7 +283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea0c964c262e2a640acd7b588bab3f01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Game.Runtime.UpgradeManager
-  player: {fileID: 0}
+  player: {fileID: 484142122}
   upgradePool: []
 --- !u!114 &484142120
 MonoBehaviour:
@@ -297,7 +297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55109e6a35536d84e96666a5b6da04ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Game.Runtime.UIManager
-  upgrade: {fileID: 0}
+  upgrade: {fileID: 484142119}
   levelUpPanel: {fileID: 0}
   resultPanel: {fileID: 0}
 --- !u!114 &484142121
@@ -312,7 +312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c3b01aab2d65e54d92e954c5a8777df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Game.Runtime.SpawnManager
-  enemy: {fileID: 0}
+  enemy: {fileID: 484142124}
 --- !u!114 &484142122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -376,9 +376,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3cbe07007fc33341adf31740035dfd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Game.Runtime.CombatManager
-  player: {fileID: 0}
-  enemy: {fileID: 0}
-  economy: {fileID: 0}
+  player: {fileID: 484142122}
+  enemy: {fileID: 484142124}
+  economy: {fileID: 484142125}
 --- !u!114 &484142127
 MonoBehaviour:
   m_ObjectHideFlags: 0
